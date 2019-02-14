@@ -1,0 +1,6 @@
+framework module Pods_RYPickerViewDemo {
+  umbrella header "Pods-RYPickerViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

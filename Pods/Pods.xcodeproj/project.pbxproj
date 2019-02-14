@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006D2ED0795C871915D9421EC4095051 /* Pods-RYPickerViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4C2B53058AFB22E7A3131F7025D25B /* Pods-RYPickerViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050DF15714ADC53FB724D6BD9BAA7E49 /* UIImage+RYImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8007686383B5F97AD20179CDB7447E /* UIImage+RYImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9141D8B4FA262B11BB1F823A5008EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531B217AD05DCDAF615EB081CE91B81 /* Foundation.framework */; };
+		0F483F3CE8771755C65E286899842F8B /* RYHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB4D5D96FD524178E6CE75620868 /* RYHUDManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0FB6CF886DDF783B1DB5F9627C2C7768 /* RYResponseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E393E82FC3D8A9BE6FE5DEFD650943D6 /* RYResponseManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		147BF817FD57AA67E71D8EF61A2CCB48 /* RYResponseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0C1AAA30F758FAABC38CE301C091F4 /* RYResponseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198D0B8E8C3938C02616E5870BB68777 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB3281D1E63CF789AFB409A88B149F /* QuartzCore.framework */; };
+		1C48537D35B17CC3D19F91EC89BA5520 /* RYUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AD3065B42A89D2BB5BAA9AB06645A /* RYUtils-dummy.m */; };
+		2735F5EAA5B979A23F15A92AFEA97334 /* UIImage+RYImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C99EB97207913BB594B0F9716DCB71EE /* UIImage+RYImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		292DE427326D9DFF1E66A7A0C79499C1 /* RYMBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EDE4F0AD23DF34F4F6DA6DF2B49ED7 /* RYMBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F56216B46FB01BEA259DFF100C64730 /* RYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BBA85A6B1BD3DEF37B0FB5D98713C8 /* RYBaseModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F5ABD3898DD9E74BFB880829A04BC13 /* RYXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1379DB17C244D86739D760ADB336E2 /* RYXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351E8230805CDEB75A9DAFD0E7125240 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57081A5E01D463307D2CFB317CE678 /* AssetsLibrary.framework */; };
+		39EF1E5A5D8FBCE4D22BF61802381639 /* RYMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99C00FD616A5773B71A9335D810269 /* RYMBProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A2FA6E5363E3903D84B79E24B944F54 /* RYCommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4014B4973C004FB7BE1DD9F047115D /* RYCommonMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42A1CA9964AAA1FC19642B27F4FCC43A /* NSDate+RYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2C842F1EF08677F7C92DA935B25412 /* NSDate+RYAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		42CF3BC56A0E63FC49B6690CB92CE9AC /* UIImage+RYAssetLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD78314B584652D39A6BD3BA05AAE45C /* UIImage+RYAssetLaunchImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		45736EA704C3CB2B454AD479BF08E0C7 /* RYMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454F443497941C750F210FDE364C8A4 /* RYMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468B35A6CD520E84E42D7DE74EAA93A4 /* RYRootBlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0203760C6ABB5FD76240E0BE215AA /* RYRootBlurViewManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55C9751520057424F2BC1A0595E8AC1E /* RYImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE75B3543BE17832D2BB1EFDB2791AE /* RYImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B974AE06A6431C44BBDA68C773ACDF /* RYXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 451DC1654EF98A8A8ADBD7CBF018CD6C /* RYXMLReader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57F556FA2A70578BE771B2B91A8E7C19 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7491DC6A0C4CCFAE7B8F13E0914F3ED8 /* CoreImage.framework */; };
+		59E2A92F54F6106A02B7A6D7D63B0864 /* RYAppBackgroundConfiger.h in Headers */ = {isa = PBXBuildFile; fileRef = A70AAE8605F7D04499569EFDB5E82725 /* RYAppBackgroundConfiger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624FD76A0905DA3115B6D0ED0D636CAD /* UIView+RYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FA19EC5342986FA20035B7B7C854A /* UIView+RYUtilities.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64A6914109D5EA5BF250065CCD77D0DD /* UIView+RYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC0E0D94771D652C21E9B4FDF6697A0 /* UIView+RYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655774063DFD917FAAEDC8C4C247C56D /* RYReverseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD083924EC3A8A3BA9AABDE5E76FF74D /* RYReverseLocation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		655C1F0590C4902CD9C83A6F9FCE0343 /* RYRootBlurViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B055CF24DAFF12171BF7656CCDFD013 /* RYRootBlurViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6746344D9742333A8C5E2EC8EB9651E2 /* NSArray+RYLocationTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = B093B36F6DD23542D67A8F69E738BF7C /* NSArray+RYLocationTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687FD78D4E8A45F8524AFA1B960E7FAD /* UIImage+RYScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 35521E167C35A4C3072A9F9D6BB51685 /* UIImage+RYScreenShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DBD8623877CB3D4172764B0755D9DE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C00ADBE159A0C414BA490B3F2546CD7 /* Accelerate.framework */; };
+		6E3886D8ACE7AC24FC323DF4C5CB78F6 /* UIImage+RYScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0E9FA0A111F270D6101C01A6FEA5C /* UIImage+RYScreenShot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B2A820EFB7846C0829988EEC1CBBE9A /* UIDevice+RYUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = E77D44802822ADB54D1BB27F7F11CA35 /* UIDevice+RYUDID.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81098E040B415110392293828699A7D7 /* UIDevice+RYUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 748A70B6567FF5D6E59B14FDEE76AFF4 /* UIDevice+RYUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82944DCDF04E8DB98A000241F00D39CF /* NSObject+RYPropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = 37966E54FC2DCF71AD8B18D1E307849A /* NSObject+RYPropertyList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CAAE624C8C4AA389AA03A0BD96DADE3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0D78B7BE7557867364EBB309D8D026 /* CoreLocation.framework */; };
+		918C958EE9D3000EFAEEC2EF4BDF705F /* UIImage+RYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 86403D30CBC599DE8F2F6D35649593B1 /* UIImage+RYUtilities.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9746F1FC1096ABF57C3C89A73DD0C672 /* NSDate+RYAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A365F89A0002C8D2DB6B1852CAFBD2C5 /* NSDate+RYAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7180C488DC3AA805716EA582AD0A8D /* RYCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BD32DC8BB81E9C674EFE7FA703F1E2 /* RYCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01AE47C7CE8706EB7837C5860B9EA44 /* RYAsynImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D975EFDCFF0C0679369B29B59A3B0 /* RYAsynImageView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A065DA337999A45A6676F6F78306B54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531B217AD05DCDAF615EB081CE91B81 /* Foundation.framework */; };
+		A1659680CC2BE4C6CEB4C2B06BC06149 /* UIImage+RYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 714E438DB978E566665707EAD8300529 /* UIImage+RYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BF555CFAC7F5C5A4BDF551815318C6 /* RYUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2B94092D50EEF8DFB2D4BA2596F3A5 /* RYUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA552063B0FF0EF6B03DC21A8EC40622 /* RYDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F62CF1DEF3F046FA46916F50805E1EE5 /* RYDownloaderManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C51AB18210135DFE8D02A4EF5D142F8B /* NSArray+RYLocationTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAC21D0381DCFC9ECE9346E0F62E061 /* NSArray+RYLocationTransform.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5C806B8DB5C8A7A3FAB403EF084B7A8 /* Pods-RYPickerViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EB87AE40BC935ACEB586394D1FBDD /* Pods-RYPickerViewDemo-dummy.m */; };
+		C8433EF66D351D68A93A15DEA481258F /* RYAppBackgroundConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AF5105C1C37FBCACE528F0307A8E1 /* RYAppBackgroundConfiger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8C8D6BFEFEE509C415A0E609BF1D827 /* RYDownloaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4888B5364427BA3520D7760EBBD94413 /* RYDownloaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5A24BEE5E27A55F42B1F6BD50EB45C /* RYCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7920A361FCB6A60CAD33D7FC3DA7CE2F /* RYCycleScrollView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D06D44224B4906C31487AAD23321CD76 /* RYHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD042A5F9C3EFCFC323D95FDEEDB05EF /* RYHUDManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3BF062758B3B66F440BC947143DCD05 /* RYBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDDBE536F51726754CA933CDDA6D941 /* RYBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EE2CD0DAAD63CD0D293C0CFC9ED7B1 /* UIImage+RYAssetLaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD4EF6ED4326F37EA1F779FF34228FA /* UIImage+RYAssetLaunchImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74C52254110C9AEFA799F7A0354EC56 /* RYCommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FE5DF88AB481A007173E154102F33A /* RYCommonMethods.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D7AC8D7AAA25053976B7E796D53FB7C6 /* RYDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0B18BA51D1836602C3CE547A7A5AE4 /* RYDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB2584A1AC0520590F35A6E64451E971 /* RYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAA218AC26E9060B6E5C57C4F2385E7 /* RYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF759BC1095ADBACF42B81CC4567B026 /* RYImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7AC0DCB033CBFF6D184727BC58F4C /* RYImageDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6CF75BEE39D9B69D12BABBFC5F4DE6C /* RYReverseLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AB2AE937012991A5B4089BD1AC6EC8 /* RYReverseLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC32798EBB5E59CB2CED04B1DD0FCD6A /* NSObject+RYPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = C62FAC4925B5A8FE5AAB4405DED2D6C1 /* NSObject+RYPropertyList.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F3F88E0B0E845F7847531E3A9CBD931F /* RYAsynImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E0FE16042B1A3197BC9F9C5F516745 /* RYAsynImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BBCB5D3C37AD2AB01062FB51984791 /* RYDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CD81D40C3B2A43D447D2E6DEFD9EBC /* RYDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE10BEA83BC88B1DDD7BC03EDA48C357 /* RYMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90A8148FBD7C8BCA0B529170C607B7 /* RYMediaPicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1305235C2A980E90EB0EC6CCC7EE83E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B54C671C9C71E99A4705CA84C5CE2E;
+			remoteInfo = RYUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BD32DC8BB81E9C674EFE7FA703F1E2 /* RYCycleScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYCycleScrollView.h; path = RYUtils/RYUtils/RYCycleScrollView.h; sourceTree = "<group>"; };
+		0424EB4D5D96FD524178E6CE75620868 /* RYHUDManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYHUDManager.m; path = RYUtils/RYUtils/RYHUDManager.m; sourceTree = "<group>"; };
+		06444AC3C653DB3C96ED2FFF6BE01031 /* Pods-RYPickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYPickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0880858498AEC5F5D763283A5D67AA13 /* RYUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYUtils.xcconfig; sourceTree = "<group>"; };
+		11B0203760C6ABB5FD76240E0BE215AA /* RYRootBlurViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYRootBlurViewManager.m; path = RYUtils/RYUtils/RYRootBlurViewManager.m; sourceTree = "<group>"; };
+		167AD3065B42A89D2BB5BAA9AB06645A /* RYUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYUtils-dummy.m"; sourceTree = "<group>"; };
+		1A3EB87AE40BC935ACEB586394D1FBDD /* Pods-RYPickerViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYPickerViewDemo-dummy.m"; sourceTree = "<group>"; };
+		1F8007686383B5F97AD20179CDB7447E /* UIImage+RYImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYImageEffects.h"; path = "RYUtils/RYUtils/UIImage+RYImageEffects.h"; sourceTree = "<group>"; };
+		26F7AC0DCB033CBFF6D184727BC58F4C /* RYImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImageDownloader.m; path = RYUtils/RYUtils/RYImageDownloader.m; sourceTree = "<group>"; };
+		2C00ADBE159A0C414BA490B3F2546CD7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		2DC0E0D94771D652C21E9B4FDF6697A0 /* UIView+RYUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RYUtilities.h"; path = "RYUtils/RYUtils/UIView+RYUtilities.h"; sourceTree = "<group>"; };
+		2E2B94092D50EEF8DFB2D4BA2596F3A5 /* RYUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYUtils-umbrella.h"; sourceTree = "<group>"; };
+		33AB2AE937012991A5B4089BD1AC6EC8 /* RYReverseLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYReverseLocation.h; path = RYUtils/RYUtils/RYReverseLocation.h; sourceTree = "<group>"; };
+		3454F443497941C750F210FDE364C8A4 /* RYMediaPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYMediaPicker.h; path = RYUtils/RYUtils/RYMediaPicker.h; sourceTree = "<group>"; };
+		35521E167C35A4C3072A9F9D6BB51685 /* UIImage+RYScreenShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYScreenShot.h"; path = "RYUtils/RYUtils/UIImage+RYScreenShot.h"; sourceTree = "<group>"; };
+		37966E54FC2DCF71AD8B18D1E307849A /* NSObject+RYPropertyList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RYPropertyList.h"; path = "RYUtils/RYUtils/NSObject+RYPropertyList.h"; sourceTree = "<group>"; };
+		3C0D78B7BE7557867364EBB309D8D026 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		3C7A548F5C1FB69C3782039DD3DD911F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439AF5105C1C37FBCACE528F0307A8E1 /* RYAppBackgroundConfiger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAppBackgroundConfiger.m; path = RYUtils/RYUtils/RYAppBackgroundConfiger.m; sourceTree = "<group>"; };
+		451DC1654EF98A8A8ADBD7CBF018CD6C /* RYXMLReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYXMLReader.m; path = RYUtils/RYUtils/RYXMLReader.m; sourceTree = "<group>"; };
+		4888B5364427BA3520D7760EBBD94413 /* RYDownloaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYDownloaderManager.h; path = RYUtils/RYUtils/RYDownloaderManager.h; sourceTree = "<group>"; };
+		4D1B3AED57E3402EDC9CC06F1E69632E /* Pods-RYPickerViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYPickerViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5531B217AD05DCDAF615EB081CE91B81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55BBA85A6B1BD3DEF37B0FB5D98713C8 /* RYBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYBaseModel.m; path = RYUtils/RYUtils/RYBaseModel.m; sourceTree = "<group>"; };
+		62EDE4F0AD23DF34F4F6DA6DF2B49ED7 /* RYMBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYMBProgressHUD.h; path = RYUtils/RYUtils/RYMBProgressHUD.h; sourceTree = "<group>"; };
+		6866F60FCB6B1B57E8403E46B4376823 /* Pods-RYPickerViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYPickerViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D9875DCDE302B826125FE1F9E85A20C /* RYUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYUtils.framework; path = RYUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CD81D40C3B2A43D447D2E6DEFD9EBC /* RYDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYDownloader.h; path = RYUtils/RYUtils/RYDownloader.h; sourceTree = "<group>"; };
+		714E438DB978E566665707EAD8300529 /* UIImage+RYUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYUtilities.h"; path = "RYUtils/RYUtils/UIImage+RYUtilities.h"; sourceTree = "<group>"; };
+		748A70B6567FF5D6E59B14FDEE76AFF4 /* UIDevice+RYUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RYUDID.h"; path = "RYUtils/RYUtils/UIDevice+RYUDID.h"; sourceTree = "<group>"; };
+		7491DC6A0C4CCFAE7B8F13E0914F3ED8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		7920A361FCB6A60CAD33D7FC3DA7CE2F /* RYCycleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYCycleScrollView.m; path = RYUtils/RYUtils/RYCycleScrollView.m; sourceTree = "<group>"; };
+		79FB3281D1E63CF789AFB409A88B149F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7BD4EF6ED4326F37EA1F779FF34228FA /* UIImage+RYAssetLaunchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RYAssetLaunchImage.h"; path = "RYUtils/RYUtils/UIImage+RYAssetLaunchImage.h"; sourceTree = "<group>"; };
+		86403D30CBC599DE8F2F6D35649593B1 /* UIImage+RYUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYUtilities.m"; path = "RYUtils/RYUtils/UIImage+RYUtilities.m"; sourceTree = "<group>"; };
+		8D4C2B53058AFB22E7A3131F7025D25B /* Pods-RYPickerViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYPickerViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		8E90A8148FBD7C8BCA0B529170C607B7 /* RYMediaPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYMediaPicker.m; path = RYUtils/RYUtils/RYMediaPicker.m; sourceTree = "<group>"; };
+		90E0FE16042B1A3197BC9F9C5F516745 /* RYAsynImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAsynImageView.h; path = RYUtils/RYUtils/RYAsynImageView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B055CF24DAFF12171BF7656CCDFD013 /* RYRootBlurViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYRootBlurViewManager.h; path = RYUtils/RYUtils/RYRootBlurViewManager.h; sourceTree = "<group>"; };
+		9B4014B4973C004FB7BE1DD9F047115D /* RYCommonMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYCommonMethods.h; path = RYUtils/RYUtils/RYCommonMethods.h; sourceTree = "<group>"; };
+		9EAA218AC26E9060B6E5C57C4F2385E7 /* RYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYUtils.h; path = RYUtils/RYUtils/RYUtils.h; sourceTree = "<group>"; };
+		A365F89A0002C8D2DB6B1852CAFBD2C5 /* NSDate+RYAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RYAdditions.h"; path = "RYUtils/RYUtils/NSDate+RYAdditions.h"; sourceTree = "<group>"; };
+		A70AAE8605F7D04499569EFDB5E82725 /* RYAppBackgroundConfiger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAppBackgroundConfiger.h; path = RYUtils/RYUtils/RYAppBackgroundConfiger.h; sourceTree = "<group>"; };
+		ADE75B3543BE17832D2BB1EFDB2791AE /* RYImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImageDownloader.h; path = RYUtils/RYUtils/RYImageDownloader.h; sourceTree = "<group>"; };
+		B093B36F6DD23542D67A8F69E738BF7C /* NSArray+RYLocationTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RYLocationTransform.h"; path = "RYUtils/RYUtils/NSArray+RYLocationTransform.h"; sourceTree = "<group>"; };
+		B3274AF9A67FDC567D5D047C8A7B5B89 /* Pods-RYPickerViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYPickerViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B94394EC1A32B7EFDDF772A59252EC8E /* RYUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYUtils-prefix.pch"; sourceTree = "<group>"; };
+		BA0B18BA51D1836602C3CE547A7A5AE4 /* RYDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYDownloader.m; path = RYUtils/RYUtils/RYDownloader.m; sourceTree = "<group>"; };
+		BD78314B584652D39A6BD3BA05AAE45C /* UIImage+RYAssetLaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYAssetLaunchImage.m"; path = "RYUtils/RYUtils/UIImage+RYAssetLaunchImage.m"; sourceTree = "<group>"; };
+		BE1379DB17C244D86739D760ADB336E2 /* RYXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYXMLReader.h; path = RYUtils/RYUtils/RYXMLReader.h; sourceTree = "<group>"; };
+		C52FA19EC5342986FA20035B7B7C854A /* UIView+RYUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RYUtilities.m"; path = "RYUtils/RYUtils/UIView+RYUtilities.m"; sourceTree = "<group>"; };
+		C62FAC4925B5A8FE5AAB4405DED2D6C1 /* NSObject+RYPropertyList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RYPropertyList.m"; path = "RYUtils/RYUtils/NSObject+RYPropertyList.m"; sourceTree = "<group>"; };
+		C99EB97207913BB594B0F9716DCB71EE /* UIImage+RYImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYImageEffects.m"; path = "RYUtils/RYUtils/UIImage+RYImageEffects.m"; sourceTree = "<group>"; };
+		CBDD1428D3E6111BBCAE89EA2AA6ED13 /* Pods_RYPickerViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYPickerViewDemo.framework; path = "Pods-RYPickerViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DE382B4DF3A996FA694F3931CB0260 /* Pods-RYPickerViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYPickerViewDemo-resources.sh"; sourceTree = "<group>"; };
+		DAAC21D0381DCFC9ECE9346E0F62E061 /* NSArray+RYLocationTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RYLocationTransform.m"; path = "RYUtils/RYUtils/NSArray+RYLocationTransform.m"; sourceTree = "<group>"; };
+		DE2C842F1EF08677F7C92DA935B25412 /* NSDate+RYAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RYAdditions.m"; path = "RYUtils/RYUtils/NSDate+RYAdditions.m"; sourceTree = "<group>"; };
+		DF57081A5E01D463307D2CFB317CE678 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		E393E82FC3D8A9BE6FE5DEFD650943D6 /* RYResponseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYResponseManager.m; path = RYUtils/RYUtils/RYResponseManager.m; sourceTree = "<group>"; };
+		E3FE5DF88AB481A007173E154102F33A /* RYCommonMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYCommonMethods.m; path = RYUtils/RYUtils/RYCommonMethods.m; sourceTree = "<group>"; };
+		E61B90AB8222BB4AE3B52AA261825D99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77D44802822ADB54D1BB27F7F11CA35 /* UIDevice+RYUDID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+RYUDID.m"; path = "RYUtils/RYUtils/UIDevice+RYUDID.m"; sourceTree = "<group>"; };
+		E89C6D126C5426C8B35DCD58C1AD5775 /* Pods-RYPickerViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYPickerViewDemo.modulemap"; sourceTree = "<group>"; };
+		E9F0E9FA0A111F270D6101C01A6FEA5C /* UIImage+RYScreenShot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RYScreenShot.m"; path = "RYUtils/RYUtils/UIImage+RYScreenShot.m"; sourceTree = "<group>"; };
+		ED47BB329677424278E588B0F748D6A4 /* RYUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYUtils.modulemap; sourceTree = "<group>"; };
+		EE6D975EFDCFF0C0679369B29B59A3B0 /* RYAsynImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAsynImageView.m; path = RYUtils/RYUtils/RYAsynImageView.m; sourceTree = "<group>"; };
+		EEDDBE536F51726754CA933CDDA6D941 /* RYBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYBaseModel.h; path = RYUtils/RYUtils/RYBaseModel.h; sourceTree = "<group>"; };
+		F22F8D6DEBA8C1ED2070C9C29281DF08 /* Pods-RYPickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYPickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F62CF1DEF3F046FA46916F50805E1EE5 /* RYDownloaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYDownloaderManager.m; path = RYUtils/RYUtils/RYDownloaderManager.m; sourceTree = "<group>"; };
+		FC0C1AAA30F758FAABC38CE301C091F4 /* RYResponseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYResponseManager.h; path = RYUtils/RYUtils/RYResponseManager.h; sourceTree = "<group>"; };
+		FD042A5F9C3EFCFC323D95FDEEDB05EF /* RYHUDManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYHUDManager.h; path = RYUtils/RYUtils/RYHUDManager.h; sourceTree = "<group>"; };
+		FD083924EC3A8A3BA9AABDE5E76FF74D /* RYReverseLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYReverseLocation.m; path = RYUtils/RYUtils/RYReverseLocation.m; sourceTree = "<group>"; };
+		FF99C00FD616A5773B71A9335D810269 /* RYMBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYMBProgressHUD.m; path = RYUtils/RYUtils/RYMBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD6E451BB6291B34BE6B5317AA3147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9141D8B4FA262B11BB1F823A5008EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC6D20424576A48F4B073791741E948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBD8623877CB3D4172764B0755D9DE /* Accelerate.framework in Frameworks */,
+				351E8230805CDEB75A9DAFD0E7125240 /* AssetsLibrary.framework in Frameworks */,
+				57F556FA2A70578BE771B2B91A8E7C19 /* CoreImage.framework in Frameworks */,
+				8CAAE624C8C4AA389AA03A0BD96DADE3 /* CoreLocation.framework in Frameworks */,
+				A065DA337999A45A6676F6F78306B54C /* Foundation.framework in Frameworks */,
+				198D0B8E8C3938C02616E5870BB68777 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA63BDDE0B7FD1E6363E80C7DD029D9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AB6E0122636891DE49A1FC9C8769CD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81ABF1D6391DF769BE5DB212A3D703BC /* RYUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				3AB6E0122636891DE49A1FC9C8769CD5 /* Pods */,
+				7E06E63AABC76604564685C089FE8767 /* Products */,
+				FEA096DE84FBA0127309B27BECFFEED8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E06E63AABC76604564685C089FE8767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD1428D3E6111BBCAE89EA2AA6ED13 /* Pods_RYPickerViewDemo.framework */,
+				6D9875DCDE302B826125FE1F9E85A20C /* RYUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ABF1D6391DF769BE5DB212A3D703BC /* RYUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B093B36F6DD23542D67A8F69E738BF7C /* NSArray+RYLocationTransform.h */,
+				DAAC21D0381DCFC9ECE9346E0F62E061 /* NSArray+RYLocationTransform.m */,
+				A365F89A0002C8D2DB6B1852CAFBD2C5 /* NSDate+RYAdditions.h */,
+				DE2C842F1EF08677F7C92DA935B25412 /* NSDate+RYAdditions.m */,
+				37966E54FC2DCF71AD8B18D1E307849A /* NSObject+RYPropertyList.h */,
+				C62FAC4925B5A8FE5AAB4405DED2D6C1 /* NSObject+RYPropertyList.m */,
+				A70AAE8605F7D04499569EFDB5E82725 /* RYAppBackgroundConfiger.h */,
+				439AF5105C1C37FBCACE528F0307A8E1 /* RYAppBackgroundConfiger.m */,
+				90E0FE16042B1A3197BC9F9C5F516745 /* RYAsynImageView.h */,
+				EE6D975EFDCFF0C0679369B29B59A3B0 /* RYAsynImageView.m */,
+				EEDDBE536F51726754CA933CDDA6D941 /* RYBaseModel.h */,
+				55BBA85A6B1BD3DEF37B0FB5D98713C8 /* RYBaseModel.m */,
+				9B4014B4973C004FB7BE1DD9F047115D /* RYCommonMethods.h */,
+				E3FE5DF88AB481A007173E154102F33A /* RYCommonMethods.m */,
+				01BD32DC8BB81E9C674EFE7FA703F1E2 /* RYCycleScrollView.h */,
+				7920A361FCB6A60CAD33D7FC3DA7CE2F /* RYCycleScrollView.m */,
+				70CD81D40C3B2A43D447D2E6DEFD9EBC /* RYDownloader.h */,
+				BA0B18BA51D1836602C3CE547A7A5AE4 /* RYDownloader.m */,
+				4888B5364427BA3520D7760EBBD94413 /* RYDownloaderManager.h */,
+				F62CF1DEF3F046FA46916F50805E1EE5 /* RYDownloaderManager.m */,
+				FD042A5F9C3EFCFC323D95FDEEDB05EF /* RYHUDManager.h */,
+				0424EB4D5D96FD524178E6CE75620868 /* RYHUDManager.m */,
+				ADE75B3543BE17832D2BB1EFDB2791AE /* RYImageDownloader.h */,
+				26F7AC0DCB033CBFF6D184727BC58F4C /* RYImageDownloader.m */,
+				62EDE4F0AD23DF34F4F6DA6DF2B49ED7 /* RYMBProgressHUD.h */,
+				FF99C00FD616A5773B71A9335D810269 /* RYMBProgressHUD.m */,
+				3454F443497941C750F210FDE364C8A4 /* RYMediaPicker.h */,
+				8E90A8148FBD7C8BCA0B529170C607B7 /* RYMediaPicker.m */,
+				FC0C1AAA30F758FAABC38CE301C091F4 /* RYResponseManager.h */,
+				E393E82FC3D8A9BE6FE5DEFD650943D6 /* RYResponseManager.m */,
+				33AB2AE937012991A5B4089BD1AC6EC8 /* RYReverseLocation.h */,
+				FD083924EC3A8A3BA9AABDE5E76FF74D /* RYReverseLocation.m */,
+				9B055CF24DAFF12171BF7656CCDFD013 /* RYRootBlurViewManager.h */,
+				11B0203760C6ABB5FD76240E0BE215AA /* RYRootBlurViewManager.m */,
+				9EAA218AC26E9060B6E5C57C4F2385E7 /* RYUtils.h */,
+				BE1379DB17C244D86739D760ADB336E2 /* RYXMLReader.h */,
+				451DC1654EF98A8A8ADBD7CBF018CD6C /* RYXMLReader.m */,
+				748A70B6567FF5D6E59B14FDEE76AFF4 /* UIDevice+RYUDID.h */,
+				E77D44802822ADB54D1BB27F7F11CA35 /* UIDevice+RYUDID.m */,
+				7BD4EF6ED4326F37EA1F779FF34228FA /* UIImage+RYAssetLaunchImage.h */,
+				BD78314B584652D39A6BD3BA05AAE45C /* UIImage+RYAssetLaunchImage.m */,
+				1F8007686383B5F97AD20179CDB7447E /* UIImage+RYImageEffects.h */,
+				C99EB97207913BB594B0F9716DCB71EE /* UIImage+RYImageEffects.m */,
+				35521E167C35A4C3072A9F9D6BB51685 /* UIImage+RYScreenShot.h */,
+				E9F0E9FA0A111F270D6101C01A6FEA5C /* UIImage+RYScreenShot.m */,
+				714E438DB978E566665707EAD8300529 /* UIImage+RYUtilities.h */,
+				86403D30CBC599DE8F2F6D35649593B1 /* UIImage+RYUtilities.m */,
+				2DC0E0D94771D652C21E9B4FDF6697A0 /* UIView+RYUtilities.h */,
+				C52FA19EC5342986FA20035B7B7C854A /* UIView+RYUtilities.m */,
+				F44198A008C00F3E955F9A46A21FB6C0 /* Support Files */,
+			);
+			name = RYUtils;
+			path = RYUtils;
+			sourceTree = "<group>";
+		};
+		825D7992791EC9DEB2BF0F8C67FFE012 /* Pods-RYPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E61B90AB8222BB4AE3B52AA261825D99 /* Info.plist */,
+				E89C6D126C5426C8B35DCD58C1AD5775 /* Pods-RYPickerViewDemo.modulemap */,
+				6866F60FCB6B1B57E8403E46B4376823 /* Pods-RYPickerViewDemo-acknowledgements.markdown */,
+				B3274AF9A67FDC567D5D047C8A7B5B89 /* Pods-RYPickerViewDemo-acknowledgements.plist */,
+				1A3EB87AE40BC935ACEB586394D1FBDD /* Pods-RYPickerViewDemo-dummy.m */,
+				4D1B3AED57E3402EDC9CC06F1E69632E /* Pods-RYPickerViewDemo-frameworks.sh */,
+				D7DE382B4DF3A996FA694F3931CB0260 /* Pods-RYPickerViewDemo-resources.sh */,
+				8D4C2B53058AFB22E7A3131F7025D25B /* Pods-RYPickerViewDemo-umbrella.h */,
+				06444AC3C653DB3C96ED2FFF6BE01031 /* Pods-RYPickerViewDemo.debug.xcconfig */,
+				F22F8D6DEBA8C1ED2070C9C29281DF08 /* Pods-RYPickerViewDemo.release.xcconfig */,
+			);
+			name = "Pods-RYPickerViewDemo";
+			path = "Target Support Files/Pods-RYPickerViewDemo";
+			sourceTree = "<group>";
+		};
+		CCA63BDDE0B7FD1E6363E80C7DD029D9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C00ADBE159A0C414BA490B3F2546CD7 /* Accelerate.framework */,
+				DF57081A5E01D463307D2CFB317CE678 /* AssetsLibrary.framework */,
+				7491DC6A0C4CCFAE7B8F13E0914F3ED8 /* CoreImage.framework */,
+				3C0D78B7BE7557867364EBB309D8D026 /* CoreLocation.framework */,
+				5531B217AD05DCDAF615EB081CE91B81 /* Foundation.framework */,
+				79FB3281D1E63CF789AFB409A88B149F /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F44198A008C00F3E955F9A46A21FB6C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A548F5C1FB69C3782039DD3DD911F /* Info.plist */,
+				ED47BB329677424278E588B0F748D6A4 /* RYUtils.modulemap */,
+				0880858498AEC5F5D763283A5D67AA13 /* RYUtils.xcconfig */,
+				167AD3065B42A89D2BB5BAA9AB06645A /* RYUtils-dummy.m */,
+				B94394EC1A32B7EFDDF772A59252EC8E /* RYUtils-prefix.pch */,
+				2E2B94092D50EEF8DFB2D4BA2596F3A5 /* RYUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RYUtils";
+			sourceTree = "<group>";
+		};
+		FEA096DE84FBA0127309B27BECFFEED8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				825D7992791EC9DEB2BF0F8C67FFE012 /* Pods-RYPickerViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13C4F02836B765A0A2A3E1EE85FC8429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6746344D9742333A8C5E2EC8EB9651E2 /* NSArray+RYLocationTransform.h in Headers */,
+				9746F1FC1096ABF57C3C89A73DD0C672 /* NSDate+RYAdditions.h in Headers */,
+				82944DCDF04E8DB98A000241F00D39CF /* NSObject+RYPropertyList.h in Headers */,
+				59E2A92F54F6106A02B7A6D7D63B0864 /* RYAppBackgroundConfiger.h in Headers */,
+				F3F88E0B0E845F7847531E3A9CBD931F /* RYAsynImageView.h in Headers */,
+				D3BF062758B3B66F440BC947143DCD05 /* RYBaseModel.h in Headers */,
+				3A2FA6E5363E3903D84B79E24B944F54 /* RYCommonMethods.h in Headers */,
+				9F7180C488DC3AA805716EA582AD0A8D /* RYCycleScrollView.h in Headers */,
+				F8BBCB5D3C37AD2AB01062FB51984791 /* RYDownloader.h in Headers */,
+				C8C8D6BFEFEE509C415A0E609BF1D827 /* RYDownloaderManager.h in Headers */,
+				D06D44224B4906C31487AAD23321CD76 /* RYHUDManager.h in Headers */,
+				55C9751520057424F2BC1A0595E8AC1E /* RYImageDownloader.h in Headers */,
+				292DE427326D9DFF1E66A7A0C79499C1 /* RYMBProgressHUD.h in Headers */,
+				45736EA704C3CB2B454AD479BF08E0C7 /* RYMediaPicker.h in Headers */,
+				147BF817FD57AA67E71D8EF61A2CCB48 /* RYResponseManager.h in Headers */,
+				E6CF75BEE39D9B69D12BABBFC5F4DE6C /* RYReverseLocation.h in Headers */,
+				655C1F0590C4902CD9C83A6F9FCE0343 /* RYRootBlurViewManager.h in Headers */,
+				B4BF555CFAC7F5C5A4BDF551815318C6 /* RYUtils-umbrella.h in Headers */,
+				DB2584A1AC0520590F35A6E64451E971 /* RYUtils.h in Headers */,
+				2F5ABD3898DD9E74BFB880829A04BC13 /* RYXMLReader.h in Headers */,
+				81098E040B415110392293828699A7D7 /* UIDevice+RYUDID.h in Headers */,
+				D4EE2CD0DAAD63CD0D293C0CFC9ED7B1 /* UIImage+RYAssetLaunchImage.h in Headers */,
+				050DF15714ADC53FB724D6BD9BAA7E49 /* UIImage+RYImageEffects.h in Headers */,
+				687FD78D4E8A45F8524AFA1B960E7FAD /* UIImage+RYScreenShot.h in Headers */,
+				A1659680CC2BE4C6CEB4C2B06BC06149 /* UIImage+RYUtilities.h in Headers */,
+				64A6914109D5EA5BF250065CCD77D0DD /* UIView+RYUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91B3A3F0612D9BB99F32F0138BA2B90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D2ED0795C871915D9421EC4095051 /* Pods-RYPickerViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31B54C671C9C71E99A4705CA84C5CE2E /* RYUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD39C8A818AF9500CD832E089CA0A58 /* Build configuration list for PBXNativeTarget "RYUtils" */;
+			buildPhases = (
+				11AC8F1CC80B5C8CE41AFA7D500C6C5F /* Sources */,
+				DEC6D20424576A48F4B073791741E948 /* Frameworks */,
+				13C4F02836B765A0A2A3E1EE85FC8429 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYUtils;
+			productName = RYUtils;
+			productReference = 6D9875DCDE302B826125FE1F9E85A20C /* RYUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFF04FF86048312064C556D50DDBD799 /* Pods-RYPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1218C1CF72F791913DDAD47B42ED459 /* Build configuration list for PBXNativeTarget "Pods-RYPickerViewDemo" */;
+			buildPhases = (
+				BA8E85975294E6EDA659F8800EC38F38 /* Sources */,
+				CBD6E451BB6291B34BE6B5317AA3147D /* Frameworks */,
+				B91B3A3F0612D9BB99F32F0138BA2B90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89371AC39BC4597687A8615566F30464 /* PBXTargetDependency */,
+			);
+			name = "Pods-RYPickerViewDemo";
+			productName = "Pods-RYPickerViewDemo";
+			productReference = CBDD1428D3E6111BBCAE89EA2AA6ED13 /* Pods_RYPickerViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7E06E63AABC76604564685C089FE8767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF04FF86048312064C556D50DDBD799 /* Pods-RYPickerViewDemo */,
+				31B54C671C9C71E99A4705CA84C5CE2E /* RYUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AC8F1CC80B5C8CE41AFA7D500C6C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AB18210135DFE8D02A4EF5D142F8B /* NSArray+RYLocationTransform.m in Sources */,
+				42A1CA9964AAA1FC19642B27F4FCC43A /* NSDate+RYAdditions.m in Sources */,
+				EC32798EBB5E59CB2CED04B1DD0FCD6A /* NSObject+RYPropertyList.m in Sources */,
+				C8433EF66D351D68A93A15DEA481258F /* RYAppBackgroundConfiger.m in Sources */,
+				A01AE47C7CE8706EB7837C5860B9EA44 /* RYAsynImageView.m in Sources */,
+				2F56216B46FB01BEA259DFF100C64730 /* RYBaseModel.m in Sources */,
+				D74C52254110C9AEFA799F7A0354EC56 /* RYCommonMethods.m in Sources */,
+				CB5A24BEE5E27A55F42B1F6BD50EB45C /* RYCycleScrollView.m in Sources */,
+				D7AC8D7AAA25053976B7E796D53FB7C6 /* RYDownloader.m in Sources */,
+				BA552063B0FF0EF6B03DC21A8EC40622 /* RYDownloaderManager.m in Sources */,
+				0F483F3CE8771755C65E286899842F8B /* RYHUDManager.m in Sources */,
+				DF759BC1095ADBACF42B81CC4567B026 /* RYImageDownloader.m in Sources */,
+				39EF1E5A5D8FBCE4D22BF61802381639 /* RYMBProgressHUD.m in Sources */,
+				FE10BEA83BC88B1DDD7BC03EDA48C357 /* RYMediaPicker.m in Sources */,
+				0FB6CF886DDF783B1DB5F9627C2C7768 /* RYResponseManager.m in Sources */,
+				655774063DFD917FAAEDC8C4C247C56D /* RYReverseLocation.m in Sources */,
+				468B35A6CD520E84E42D7DE74EAA93A4 /* RYRootBlurViewManager.m in Sources */,
+				1C48537D35B17CC3D19F91EC89BA5520 /* RYUtils-dummy.m in Sources */,
+				56B974AE06A6431C44BBDA68C773ACDF /* RYXMLReader.m in Sources */,
+				7B2A820EFB7846C0829988EEC1CBBE9A /* UIDevice+RYUDID.m in Sources */,
+				42CF3BC56A0E63FC49B6690CB92CE9AC /* UIImage+RYAssetLaunchImage.m in Sources */,
+				2735F5EAA5B979A23F15A92AFEA97334 /* UIImage+RYImageEffects.m in Sources */,
+				6E3886D8ACE7AC24FC323DF4C5CB78F6 /* UIImage+RYScreenShot.m in Sources */,
+				918C958EE9D3000EFAEEC2EF4BDF705F /* UIImage+RYUtilities.m in Sources */,
+				624FD76A0905DA3115B6D0ED0D636CAD /* UIView+RYUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E85975294E6EDA659F8800EC38F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C806B8DB5C8A7A3FAB403EF084B7A8 /* Pods-RYPickerViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89371AC39BC4597687A8615566F30464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RYUtils;
+			target = 31B54C671C9C71E99A4705CA84C5CE2E /* RYUtils */;
+			targetProxy = 1305235C2A980E90EB0EC6CCC7EE83E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C2223F11B86B56EACDA7B06677CEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06444AC3C653DB3C96ED2FFF6BE01031 /* Pods-RYPickerViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYPickerViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYPickerViewDemo/Pods-RYPickerViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33C85A130CE3390D6C297A6FD9F06F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22F8D6DEBA8C1ED2070C9C29281DF08 /* Pods-RYPickerViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYPickerViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYPickerViewDemo/Pods-RYPickerViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADF2F0807B34C70EA9443654E82BC8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0880858498AEC5F5D763283A5D67AA13 /* RYUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYUtils/RYUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYUtils/RYUtils.modulemap";
+				PRODUCT_MODULE_NAME = RYUtils;
+				PRODUCT_NAME = RYUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C37F415F04716C12AE7BD6DAFF61DD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0880858498AEC5F5D763283A5D67AA13 /* RYUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYUtils/RYUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYUtils/RYUtils.modulemap";
+				PRODUCT_MODULE_NAME = RYUtils;
+				PRODUCT_NAME = RYUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD39C8A818AF9500CD832E089CA0A58 /* Build configuration list for PBXNativeTarget "RYUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37F415F04716C12AE7BD6DAFF61DD96 /* Debug */,
+				ADF2F0807B34C70EA9443654E82BC8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1218C1CF72F791913DDAD47B42ED459 /* Build configuration list for PBXNativeTarget "Pods-RYPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2223F11B86B56EACDA7B06677CEDAD /* Debug */,
+				33C85A130CE3390D6C297A6FD9F06F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

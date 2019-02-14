@@ -1,0 +1,16 @@
+PODS:
+  - RYUtils (5.0.0)
+
+DEPENDENCIES:
+  - RYUtils
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RYUtils
+
+SPEC CHECKSUMS:
+  RYUtils: 5de600dc4f9a25eaba2ce0c74c84f9d7b4f2095f
+
+PODFILE CHECKSUM: a3b4ced892b58b7c1952c1259916151472ead88d
+
+COCOAPODS: 1.5.0
