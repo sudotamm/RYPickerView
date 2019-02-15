@@ -27,8 +27,6 @@
 		94F09A2822155712001A7564 /* RYTextPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F09A2322155712001A7564 /* RYTextPickerView.xib */; };
 		94F09A2922155712001A7564 /* RYDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F09A2422155712001A7564 /* RYDatePickerView.swift */; };
 		94F09A2A22155712001A7564 /* RYDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F09A2522155712001A7564 /* RYDatePickerView.xib */; };
-		94F09A34221578DF001A7564 /* RYTextPickerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 94F09A2222155712001A7564 /* RYTextPickerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		94F09A35221578E7001A7564 /* RYDatePickerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 94F09A2422155712001A7564 /* RYDatePickerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -223,25 +221,12 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		94F09A33221578C3001A7564 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94F09A34221578DF001A7564 /* RYTextPickerView.swift in Headers */,
-				94F09A35221578E7001A7564 /* RYDatePickerView.swift in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		947655C71A393290007DBE24 /* RYPickerViewDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 947655EB1A393290007DBE24 /* Build configuration list for PBXNativeTarget "RYPickerViewDemo" */;
 			buildPhases = (
 				398D5E68768499AC1A8CEC5F /* [CP] Check Pods Manifest.lock */,
-				94F09A33221578C3001A7564 /* Headers */,
 				947655C41A393290007DBE24 /* Sources */,
 				947655C51A393290007DBE24 /* Frameworks */,
 				947655C61A393290007DBE24 /* Resources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RYTextPickerView: UIView{
+public class RYTextPickerView: UIView{
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var textPicker: UIPickerView!
@@ -39,15 +39,15 @@ extension RYTextPickerView{
 //MARK: UIPickerView methods
 extension RYTextPickerView: UIPickerViewDataSource, UIPickerViewDelegate{
 
-    func numberOfComponents(in pickerView: UIPickerView) -> Int{
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int{
         return 1
     }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
         return self.textArray.count
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
+    public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
         return self.textArray[row]
     }
 }

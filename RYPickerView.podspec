@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RYPickerView"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Customized date and text picker component."
   s.description      = <<-DESC
                        Customized date and text picker component, which implemented with Swift.

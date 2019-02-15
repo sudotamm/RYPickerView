@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RYDatePickerView: UIView{
+public class RYDatePickerView: UIView{
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
