@@ -14,8 +14,8 @@ public class RYTextPickerView: UIView{
     @IBOutlet weak var textPicker: UIPickerView!
     var textArray = [String]()
     
-    var cancelBlock: (()->Void)?
-    var confirmBlock: ((String)->Void)?
+    public var cancelBlock: (()->Void)?
+    public var confirmBlock: ((String)->Void)?
     
     @IBAction func pickerCancel(btn: UIButton){
         self.cancelBlock?()
@@ -29,7 +29,7 @@ public class RYTextPickerView: UIView{
 }
 
 extension RYTextPickerView{
-    func reload(texts: [String], defaultIndex: Int){
+    public func reload(texts: [String], defaultIndex: Int){
         self.textArray = texts
         self.textPicker.reloadAllComponents()
         self.textPicker.selectRow(defaultIndex, inComponent: 0, animated: false)
