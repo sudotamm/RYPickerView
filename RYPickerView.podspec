@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RYPickerView"
-  s.version          = "1.0.0"
+  s.version          = "1.0.2"
   s.summary          = "Customized date and text picker component."
   s.description      = <<-DESC
                        Customized date and text picker component, which implemented with Swift.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'RootDirectory/Utilities/RYCommonViews/RYPickerView/*.{swift}'
-  s.resources = 'RootDirectory/Utilities/RYCommonViews/RYPickerView/*.{xcassets}'
+  s.resources = 'RootDirectory/Utilities/RYCommonViews/RYPickerView/*.{xcassets,xib}'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
